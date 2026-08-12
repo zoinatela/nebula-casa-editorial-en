@@ -8,32 +8,20 @@ This is the **English Hotmart-pattern** storefront. Do **not** confuse it with:
 
 | Surface | Repo / folder | Market |
 |---------|---------------|--------|
-| BR Hotmart | 
-ebula-casa-editorial-loja · monorepo loja/ | Brazil BRL |
-| BR Kiwify | 
-ebula-casa-editorial-kiwify · monorepo loja-kiwify/ | Brazil BRL |
-| **EN Hotmart (this)** | 
-ebula-casa-editorial-en | International USD |
-| EN Kiwify | 
-ebula-casa-editorial-en-kiwify | International USD |
+| BR Hotmart | `nebula-casa-editorial-loja` · monorepo `loja/` | Brazil BRL |
+| BR Kiwify | `nebula-casa-editorial-kiwify` · monorepo `loja-kiwify/` | Brazil BRL |
+| **EN Hotmart (this)** | `nebula-casa-editorial-en` | International USD |
+| EN Kiwify | `nebula-casa-editorial-en-kiwify` | International USD |
 
-## Structure (mirrors BR Hotmart loja/)
+## Structure (mirrors BR Hotmart `loja/`)
 
-```
-index.html
-money-in-control.html
-extra-digital-income.html
-body-and-mind-at-home.html
-conversation-that-connects.html
-kit.html
-spreadsheet-control-pack.html
-css/loja.css
-js/loja.js
-img/
-README.md
-```
+- `index.html` — catalog (product grid)
+- `money-in-control.html` · `extra-digital-income.html` · `body-and-mind-at-home.html` · `conversation-that-connects.html`
+- `kit.html` — 4 ebooks only
+- `spreadsheet-control-pack.html` — separate SKU
+- `css/loja.css` · `js/loja.js` · `img/`
 
-## Provisional USD prices
+## Provisional USD
 
 | Product | Price |
 |---------|-------|
@@ -43,18 +31,9 @@ README.md
 
 ## Checkout placeholders
 
-All CTAs use ` #paste-hotmart-intl-checkout ` and:
-
-```html
-window.NEBULA_CHECKOUT_HOTMART_INTL = { "01": "#paste-hotmart-intl-checkout" };
-```
-
-Replace in **every** .btn-cta on that product page (hero, final CTA, sticky). Do **not** paste Kiwify or Brazil Hotmart links here.
+All CTAs use `#paste-hotmart-intl-checkout` and `window.NEBULA_CHECKOUT_HOTMART_INTL`.  
+Do **not** paste Kiwify or Brazil Hotmart links here.
 
 ## Design
 
-Same Hotmart BR visual system: Fraunces + Source Sans 3, teal/cream product grid, cream catalog sections.
-
-## Disclaimers
-
-Educational personal-organization content. Not financial, legal, medical, or therapeutic advice. Results vary.
+Hotmart BR visual system: Fraunces + Source Sans 3, teal/cream product grid.
