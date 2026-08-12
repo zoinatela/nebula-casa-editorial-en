@@ -1,5 +1,5 @@
 /**
- * Nébula Casa Editorial — loja
+ * Nébula Casa Editorial — Hotmart EN
  * Sticky CTA + reveal on scroll
  */
 (function () {
@@ -21,7 +21,7 @@
           }
         });
       },
-      { threshold: 0.15 }
+      { threshold: 0.12 }
     );
 
     observer.observe(hero);
