@@ -15,7 +15,11 @@ English Hotmart-pattern storefront. Do **not** mix with BR `loja/` or Kiwify EN.
 
 ## Checkout
 
-All CTAs use `#paste-hotmart-intl-checkout` until Hotmart International product URLs are live.
+| Product | Status |
+|---------|--------|
+| **01 Money in Control** | Live — `https://hotmart.com/en/marketplace/products/money-in-control/F107199419Q` |
+| **02 Extra Digital Income** | Live — `https://hotmart.com/en/marketplace/products/extra-digital-income/L107199516E` |
+| 03–04, kit, pack 06 | `#paste-hotmart-intl-checkout` until Hotmart International URLs are live |
 
 ## Design
 
