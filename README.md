@@ -21,7 +21,8 @@ English Hotmart-pattern storefront. Do **not** mix with BR `loja/` or Kiwify EN.
 | **02 Extra Digital Income** | Live — `https://hotmart.com/en/marketplace/products/extra-digital-income/L107199516E` |
 | **03 Body & Mind at Home** | Live — `https://go.hotmart.com/M107199808J?dp=1` |
 | **04 Conversation that Connects** | Live — `https://go.hotmart.com/R107200205I?dp=1` |
-| kit, pack 06 | `#paste-hotmart-intl-checkout` until Hotmart International URLs are live |
+| **Kit Life in Order** | Live — `https://go.hotmart.com/J107200434C?dp=1` |
+| **Spreadsheet Control Pack** | Live — `https://go.hotmart.com/A107200736H?dp=1` |
 
 ## Design
 
